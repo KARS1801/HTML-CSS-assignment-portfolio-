@@ -1,0 +1,287 @@
+
+.heading{text-align: center;
+        color: white;
+        padding: 20px;
+        font-size: 70px; 
+        width: 100%;
+        height: 250px; 
+        border: 10px groove black;
+        border-radius: 5px;
+        text-shadow: 2px 2px 3px orange,
+                     4px 4px 5px purple;
+        background-image: url(headimg.jpeg); 
+        box-shadow: inset 0px 0px 15px black;
+        margin-right: 20px;
+        position: relative;
+        top: 60px;
+        box-shadow: inset 0px 0px 15px orange;}
+
+
+
+
+
+.header {padding: 15px;
+	     margin: 5px; }
+
+
+
+.navbar{height: 50px;
+	    width: 100%;
+        background-image: url(navimg.jpeg);
+        position: fixed;
+        top: 10px;
+        margin-right: 20px;
+        line-height: 50px;
+        z-index: 10;
+        float: center;
+    box-shadow: inset 0px 0px 15px orange;}
+
+.navscroll{position:fixed;
+           left: 58px;
+           z-index: 10;
+           float: center;
+           }
+
+
+
+.navbar a{text-decoration: none;
+          padding: 5px;
+          background-color: black;
+          color: white;
+          border: 2px groove white;
+          border-radius: 3px;
+          font-family: 'Pacifico', cursive;}
+
+
+
+.navbar a:hover{ background-color: white;
+                 color: black;
+                 text-decoration: underline;
+                 border: 2px groove black;
+                 font-size: 20px;}
+
+       
+
+#outerbox{width: 600px;
+          overflow: hidden;
+          position: fixed;
+          top: 320px;
+          left:  350px;
+          border: 4px outset black;
+          border-radius: 4px;
+          box-shadow: inset 0px 0px 25px orange;}
+
+
+#sliderbox {width:2400px;
+            height:300px;
+            background-color: red;
+            position: relative;
+            animation-name:karan;
+            animation-duration:15s;
+            animation-iteration-count: infinite;}
+
+
+ #sliderbox img{padding: 0px;
+                margin: 0px;
+                float:left;}
+           
+  
+ @keyframes karan{  0%{left: 0px;}
+
+ 	               20%{left: 0px;}
+
+ 	            26.67%{left:-600px;}
+                      
+                46.67%{left: -600px;}
+
+                53.33%{left: -1200px;}
+
+                73.33%{left:-1200px;}
+
+                   80%{left: -1800px;}
+
+                  100%{left: -1800px;}
+
+                   }
+
+
+
+
+
+.content{position:relative;
+         top:640px;
+         width: 100%;
+         background-image: url(content.jpeg);
+         padding:20px;
+         border:5px groove black;
+         border-radius: 4px;
+         box-shadow: inset 0px 0px 35px orange;}
+
+
+
+
+.top{font-family: 'Bungee Shade', cursive;
+       text-align: center;
+       font-size:50px;
+       color: black;}
+
+
+h1 a{font-family: 'Passion One', cursive;
+     text-align: center;
+     text-decoration: underline;
+     font-size: 80px;
+     color:black;}
+
+#box img{width: 300px;
+         height: 300px;}
+
+
+
+ #box{  width: 300px;
+        height:300px;
+        overflow: hidden;
+        background-color: red;
+        border:4px outset blue;
+        border-radius: 3px;}
+
+
+#box img{cursor: pointer;
+         transition: transform 1s;}
+        
+
+
+#box:hover img{transform: scale(1.2,1.2) rotate(15deg);}
+
+
+#matter{width: 300px;
+       height:300px;
+       background-color: rgb(0,0,0,);
+       opacity: 0.4;
+       transition: transform 2s;}
+
+
+#box:hover #matter{transform: translateY(-300px) rotate(360deg);}
+
+
+#text {background-color: rgb(243,23,51);
+        text-align: center;
+        height: 50px;
+        line-height: 40px;
+        color: white;
+        position: absolute;
+        margin-top: 260px;
+        width: 100%;
+        font-family: 'Cookie', cursive;
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;}
+
+
+
+ .panel-body{font-family: 'Cookie', cursive;
+             color: #0a167b;
+             font-size:30px;}
+
+
+
+ 
+ 
+.btn{font-family: 'Pacifico', cursive;
+      font-size: 40px;}
+
+
+.collapse{font-family: 'Cookie', cursive;
+          color: #0a167b;
+          font-size:30px;}
+
+
+
+ #cover img{cursor: pointer;
+         transition: transform 1.5s;}
+        
+
+
+#cover:hover img{transform: scale(1.2,1.2) rotate(360deg);}
+
+
+.hover{color: blue;
+	   font-size: 30px;
+	   }
+
+.hover:hover{font-size:40px;
+             text-decoration: underline;}
+
+
+
+#fb{width: 100px;
+    height: 100px;
+    border:2px inset black;
+    border-radius: 4px;}
+
+#w{width: 100px;
+    height: 100px;
+ border:2px inset black;
+    border-radius: 4px;}
+
+#g{width: 100px;
+    height: 100px;
+ border:2px inset black;
+    border-radius: 4px;}
+
+#m{width: 100px;
+    height: 100px;
+    margin-right: 50px;
+ border:2px inset black;
+    border-radius: 4px;}
+
+
+#fb:hover{width: 130px;
+    height: 130px;
+ border:2px inset black;
+    border-radius: 4px;}
+
+#w:hover{width: 130px;
+    height: 130px;
+ border:2px inset black;
+    border-radius: 4px;}
+
+#g:hover{width: 130px;
+    height: 130px;
+ border:2px inset black;
+    border-radius: 4px;}
+
+#m:hover{width: 130px;
+    height: 130px;
+     margin-right: 50px;
+  border:2px inset black;
+    border-radius: 4px;}
+
+
+
+
+.header h1{animation-name:kars;
+            animation-duration:3s;
+            animation-iteration-count: 1;}
+
+
+
+  @keyframes kars{  0%{font-size: 20px;}
+
+ 	              
+                50%{font-size: 120px;}
+
+                
+                  100%{font-size: 70px;}
+
+                   }
+
+
+
+
+#karan{width: 100%;
+	   align-self: center;
+	   height: 100%;
+	   position: fixed;
+	   top: 0px;
+       }
+
